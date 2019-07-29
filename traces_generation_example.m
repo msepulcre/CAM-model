@@ -164,3 +164,6 @@ switch model
     otherwise
         error('''model'' parameter value is not valid. Try ''complete'', ''intervals'' or ''sizes''');
 end
+
+% clean auxiliary variables
+clear CAMsizesIndex current_state hist_corr i k M model N profile r scenario pdf
