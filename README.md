@@ -1,5 +1,5 @@
 # Empirical Models for the Realistic Generation of Cooperative Awareness Messages in Vehicular Networks
-This repository includes the models presented in the following article:
+This repository includes the models presented in the following paper:
 
     Rafael Molina-Masegosa, Miguel Sepulcre, Javier Gozalvez, Friedbert Berens, Vincent Martinez
     "Empirical Models for the Realistic Generation of Cooperative Awareness Messages in Vehicular Networks", 
