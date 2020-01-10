@@ -109,7 +109,7 @@ switch model
         %correlated interval-size PDF
         figure
         bar(hist_corr./sum(hist_corr(:)));
-        xlabel('Interval (x100 ms)');
+        xlabel('CAM time interval (x100 ms)');
         ylabel('PDF');
         switch profile
             case 'volkswagen'
@@ -124,7 +124,7 @@ switch model
         figure
         histogram(CAMintervals - (round(CAMintervals/100)*100),-10.5:1:10.5,'Normalization','probability');
         ylabel('PDF');
-        xlabel('CAM time-interval jitter (ms)');   
+        xlabel('CAM time interval jitter (ms)');   
         
     case 'intervals'
         % Array to store the generated intervals
@@ -169,13 +169,13 @@ switch model
         figure
         histogram(CAMintervals,50:100:1050,'Normalization','probability');
         ylabel('PDF');
-        xlabel('CAM time-interval (ms)');
+        xlabel('CAM time interval (ms)');
         
         %jitter PDF
         figure
         histogram(CAMintervals - (round(CAMintervals/100)*100),-10.5:1:10.5,'Normalization','probability');
         ylabel('PDF');
-        xlabel('CAM time-interval jitter (ms)');
+        xlabel('CAM time interval jitter (ms)');
         
     case 'sizes'
         % Array to store the generated sizes
@@ -227,4 +227,4 @@ switch model
 end
 
 % clean auxiliary variables
-clear CAMsizesIndex current_state hist_corr i k M model N profile r scenario pdf
+clear CAMsizesIndex current_state hist_corr i k M model N profile r scenario pdf LIA LOCB P_trans S sequence x next_symbol G current_symbols n_cam
