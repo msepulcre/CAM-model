@@ -10,7 +10,7 @@ In order to comply with our sponsor guidelines, we would appreciate if any publi
 The models are represented by a set of matrices that represent the conditional probabilities of the *m*th order Markov source models proposed. This set of matrices is in the folder called "M_matrix". In total, there are 48 models for:
 
 - Renault and Volkswagen traces.
-- Highwat, suburban, urban and universal scenarios.
+- Highway, suburban, urban and universal scenarios.
 - Complete model, separate CAM time-intervals model and separate CAM sizes model.
 - *m*=1 and *m*=5.
 
