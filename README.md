@@ -3,7 +3,8 @@ This repository includes the models presented in the following paper:
 
     Rafael Molina-Masegosa, Miguel Sepulcre, Javier Gozalvez, Friedbert Berens, Vincent Martinez
     "Empirical Models for the Realistic Generation of Cooperative Awareness Messages in Vehicular Networks", 
-    Submitted to IEEE Transactions on Vehicular Technology (in reviewing process, to be updated)
+    IEEE Transactions on Vehicular Technology (Early Access), DOI: 10.1109/TVT.2020.2979232
+    https://ieeexplore.ieee.org/abstract/document/9027961
 
 In order to comply with our sponsor guidelines, we would appreciate if any publication using this data references the above-mentioned publication.
 
