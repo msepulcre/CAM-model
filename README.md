@@ -5,6 +5,7 @@ This repository includes the models presented in the following paper:
     "Empirical Models for the Realistic Generation of Cooperative Awareness Messages in Vehicular Networks", 
     IEEE Transactions on Vehicular Technology (Early Access), DOI: 10.1109/TVT.2020.2979232
     https://ieeexplore.ieee.org/abstract/document/9027961
+    https://arxiv.org/abs/2004.06919 
 
 In order to comply with our sponsor guidelines, we would appreciate if any publication using this data references the above-mentioned publication.
 
